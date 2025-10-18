@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { HomePage } from "./pages/Home";
 import { ProductsPage } from "./pages/Products";
 import { CompaniesPage } from "./pages/Companies";
-import { TecnologyPage } from "./pages/Technology";
+import { ContactPage } from "./pages/Contact";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/produto" element={<ProductsPage />} />
         <Route path="/empresa" element={<CompaniesPage />} />
-        <Route path="/tecnologia" element={<TecnologyPage />} />
+        <Route path="/contato" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
   );
