@@ -14,14 +14,14 @@ export const HomePage = () => {
                     <img src="./figures/economia-circular-emf-ciclovivo-1024x696.webp" />
 
                     <h2 className="text-black text-xl md:max-w-3xl text-justify">
-                        Nos sistemas convencionais, <a class="underline decoration-sky-500"> toneladas de subprodutos </a> como
-                        cascas, sementes, polpas, bagaços e efluentes <a class="underline decoration-sky-500"> são descartadas </a>,
+                        Nos sistemas convencionais, <a className="underline decoration-sky-500"> toneladas de subprodutos </a> como
+                        cascas, sementes, polpas, bagaços e efluentes <a className="underline decoration-sky-500"> são descartadas </a>,
                         gerando impacto ambiental e custos de manejo. No modelo 5.0,
                         esses materiais passam a ser matérias-primas secundárias,
                         processadas por rotas tecnológicas limpas e conectadas a
                         produtivas inteligentes. A aplicação de tecnologias verdes
-                        permite <a class="underline decoration-sky-500"> recuperar </a> compostos bioativos, fibras, óleos
-                        e biopolímeros com aplicação nos setores <a class="underline decoration-sky-500"> alimentício,
+                        permite <a className="underline decoration-sky-500"> recuperar </a> compostos bioativos, fibras, óleos
+                        e biopolímeros com aplicação nos setores <a className="underline decoration-sky-500"> alimentício,
                             cosmético, farmacêutico e de bioplásticos </a>.
                     </h2>
                 </div>

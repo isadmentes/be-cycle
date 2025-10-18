@@ -6,9 +6,9 @@ export const Header = () => {
             <h2 className = "text-neutral-50 text-3xl text-center font-bold mb-4">Be-cycle</h2>
             <ul className="flex flex-col md:flex-row items-center text-neutral-50 text-lg font-bold justify-between">
                 <li> <Link to="/">Inicio </Link></li>
-                <li> <Link to="/">Produtos </Link></li>
-                <li> <Link to="/">Empresas </Link></li>
-                <li> <Link to="/">Tecnologias </Link></li>
+                <li> <Link to="/produto">Produtos </Link></li>
+                <li> <Link to="/empresa">Empresas </Link></li>
+                <li> <Link to="/tecnologia">Tecnologias </Link></li>
 
             </ul>
         </header>
